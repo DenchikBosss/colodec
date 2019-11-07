@@ -1,7 +1,7 @@
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
+}
 
 @media only screen and (min-width: 992px) {
 	/****Ipad Landscape 1024 Container 970 ****/
@@ -10,12 +10,42 @@
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
+	.col-center-md {
+		text-align: center!important;
+	  }
+	.list6b{
+		text-align: left;
+		margin-left: 23%;
+	}
+	.list6w{
+		text-align: left;
+		margin-left: 30%;
+	}
+	.list7b li
+	{
+		text-align: left;
+	}
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/****Ipad Portrait 768 Container 750 ****/
+	.col-center-md {
+		text-align: center!important;
+	  }
+	  .list6b{
+		text-align: left;
+		margin-left: 27%;
+	}
+	.list6w{
+		text-align: left;
+		margin-left: 22%;
+	}
+	.list7b li
+	{
+		text-align: left;
+	}
 	body{ font-size:13px;}
 	p{ line-height:20px ;}
 	.header h1{ font-size:46px;}
@@ -48,6 +78,14 @@
 	.col-center-sm {
 		text-align: center!important;
 	  }
+	.list6b{
+		text-align: left;
+		margin-left: 45%;
+	}
+	.list7b li
+	{
+		text-align: left;
+	}
 	body{ font-size:12px;}
 	h2{ font-size:26px;}
 	h3{ font-size:14px;}
@@ -101,6 +139,14 @@
 	.col-center-xs {
 		text-align: center!important;
 	  }
+	.list6b{
+		text-align: left;
+		margin-left: 3%;
+	}
+	.list6w{
+		text-align: left;
+		margin-left: 4%;
+	}
 	.contact-info-box{ margin-left:0px;}
 	.header{ padding:40px;}
 	.social-link{ margin-left:0px;}

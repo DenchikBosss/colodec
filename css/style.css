@@ -40,11 +40,105 @@ img
 
 .instr
 {
-	padding-top:3%;
+	margin-top:5%;
 
 }
+.instrw
+{
+
+	margin-top:2%;
+
+}
+.instrw h4{
+	text-align: center;
+}
+.list6w {
+	margin-left: 27%;
+	padding:0;
+	list-style: none;
+}
+
+.list6w li{
+	padding:4px;
+	font-size: 24px;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
 
 
+}
+.list6w li:before {
+	padding-right:10px;
+	/* font-weight: bold; */
+	color: #ffffff;
+	content: "\2714";
+	transition-duration: 0.5s;
+}
+.list6w li:hover:before {
+	color: #2ecc71;
+	content: "\2714";
+}    
+/* ------------ */
+.list6b {
+	padding:0;
+	list-style: none;
+}
+
+.list6b li{
+	padding:4px;
+	font-size: 19px;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+
+
+}
+.list6b li:before {
+	padding-right:10px;
+	/* font-weight: bold; */
+	color: #222222;
+	content: "\2714";
+	transition-duration: 0.5s;
+}
+.list6b li:hover:before {
+	color: #2ecc71;
+	content: "\2714";
+}    
+/* ---------------- */
+.ready
+{
+	margin-left: 25%;
+
+}
+.list7b {
+	padding:0;
+	list-style: none;
+}
+.list7b i
+{
+	font-size: 30px;
+
+}
+.list7b li{
+	padding:2px;
+	font-size: 26px;
+	margin-bottom: 2%;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+
+
+}
+.list7b li:before {
+	padding-right:6px;
+	/* font-weight: bold; */
+	color: #222222;
+	transition-duration: 0.5s;
+}
+.list7b li:hover:before {
+	color: #2ecc71;
+}    
+/* ---------------- */
 .instr img
 {
 
@@ -69,18 +163,29 @@ transition: all 0.3s ease-in-out;
 	box-shadow:0 4px 5px -3px #ececec;
 }
 .instr h3{
-	margin-left: 10%;
-	padding-top: 6%;
+	font-size:22px;
+	margin-left: 7%;
+	padding-top: 4%;
 	font-weight: 700;
 }
+.instr h5s{
+	font-size:19px;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	margin-bottom: 3%;
+	
+}
 .instr h5{
-	font-size:17px;
+	font-size:19px;
 	color:#222222;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:400;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 	
 }
+
+
 
 .section
 {
@@ -92,7 +197,7 @@ transition: all 0.3s ease-in-out;
 .sec1
 {
 	background:linear-gradient(rgba(59, 59, 59, 0.6),rgba(59, 59, 59, 0.6)), url(../img/bgc.jpg);
-	min-height: 300px;  
+	min-height: 200px;  
     background-attachment: fixed; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -119,7 +224,7 @@ transition: all 0.3s ease-in-out;
 
 .text-s h2
 {
-	margin-top: 11%;
+	margin-top: 4%;
 	color: #f1f1f1;
 }
 .text-s h4
@@ -253,6 +358,50 @@ p{
 
 .start-button li a{
 color: #fff;
+}
+.hr
+{
+	color: rgba(59, 59, 59, 0.6) ;
+	max-width: 50%;
+	size: 3px;
+
+}
+.qs
+{
+	margin-top: 3%;
+}
+.qs2{
+display: block;
+}
+.qs2 h2
+{
+	font-size: 25px;
+	font-weight: 400;
+
+}
+.calltext
+{
+	text-align: left;
+}
+.calltext h2
+{
+	margin-bottom: 4%;
+}
+.callphone h2
+{
+	margin-top: 4%;
+
+}
+.callphone i{
+	padding: 2%;
+}
+.callemail
+{
+	margin-top: 4%;
+	margin-left: 12%;
+}
+.callemail i{
+	padding: 2%;
 }
 
 .small-logo{
@@ -526,7 +675,7 @@ transform: rotateZ(0deg);
 .phone 
 {
 	display: inline;
-	text-align: right;
+	text-align: left;
 	margin-left: 100px;
 	display:inline-block;
 	color:#222222;
@@ -542,8 +691,9 @@ transform: rotateZ(0deg);
 	color:#222222;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	text-decoration: none;
-	line-height:20px;
+	line-height:px;
 	margin:17px 32px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
@@ -783,12 +933,19 @@ color: red;
 	margin:5px 0 5px 0;
 
 }
+.zakaz
+{
+	
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
 
+}
 .buy
 {
 	text-align: center;
 	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 5%;
 
 }
 /* ------------------------*/
@@ -828,6 +985,56 @@ display: inline-block;
     border: 1px solid #ffffff;
     color: #ffffff;
 }
+/* -------------------- black btn */
+.animate, .btn, .btn-border-b::before, .btn-border-b::after, .btn-border::before, .btn-border::after, .btn-border-rev-o::before, .btn-border-rev-o::after, .btn-border-rev::before, .btn-border-rev::after, .btn-fill-vert-o::before, .btn-fill-vert-o::after, .btn-fill-vert::before, .btn-fill-vert::after, .btn-fill-horz-o::before, .btn-fill-horz-o::after, .btn-fill-horz::before, .btn-fill-horz::after {
+	transition: all 0.3s ease 0s;
+}
+.btn-border-b
+{
+	background-color: transparent;
+	border: 1px solid #24242442;
+	color: #24242442;
+
+}
+
+.btn-border-b::before, .btn-border-b::after {
+	border-radius: 3px;
+	border-style: solid;
+	box-sizing: content-box;
+	content: "";
+	position: absolute;
+	z-index: 5;
+}
+.btn-border-b::before {
+	border-width: 1px 0;
+	height: 100%;
+	left: 0;
+	top: -1px;
+	transition-delay: 0.05s;
+	width: 0;
+}
+.btn-border-b::after {
+	border-width: 0 1px;
+	height: 0;
+	left: -1px;
+	top: 0;
+	width: 100%;
+}
+.btn-border-b:hover::before {
+	width: 100%;
+}
+.btn-border-b:hover::after {
+	height: 100%;
+}
+.btn-border-b.btn-green::before, .btn-border-b.btn-green::after {
+	border-color: #2ecc71;
+}
+.btn-border-b.btn-green:hover {
+	color: #2ecc71;
+}
+
+
+/* -----end btn-------- */
 .btn-border-o::before, .btn-border-o::after {
     border-radius: 3px;
     border-style: solid;
@@ -1301,38 +1508,24 @@ border: 2px solid #fff;
 /* Contact
 ---------------------------------*/
 .main-section.contact{
-	padding:90px 0 100px;
+	padding:30px 0 10px;
 }
 
 .main-section.contact{
 	background:url(../img/bg-map.png) left 190px no-repeat;
 }
-.contact-info-box{
-	font-size:15px;
-	margin:0 0 14px 68px;
-	padding-left:0;
+/* .social-info
+{
+	text-align: left;
 }
-.contact-info-box h3{
-	font-size: 15px;
-	font-weight:400;
-	float:left;
-	width:102px;
-	margin-right:12px;
-	line-height:28px;
+.phone-fafa
+{
+	text-align: left;
+
 }
-.contact-info-box h3 i{
-	font-style:normal;
-	font-size:18px;
-	color:#222222;
-	font-family: 'FontAwesome';
-	font-weight:normal;
-	margin-right:7px;
-}
-.contact-info-box span{
-	line-height:28px;
-	display:block;
-	overflow:hidden;
-}
+.email-fafa{
+	text-align: left;
+} */
 .social-link{
 	padding:35px 0;
 	margin:0 0 0 68px;
@@ -1463,7 +1656,7 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background: #222;
 	padding:35px 0 35px;
 	width: 100%;
 }
